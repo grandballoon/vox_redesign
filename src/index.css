@@ -12,3 +12,150 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+:-webkit-full-screen {
+  overflow: scroll;
+  background: #FFFFFF
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-width: 70%;
+  text-align: left;
+  margin-left: 180px;
+  padding-top: 50px;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-left: 180px;
+
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 180px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  max-height: 60px;
+  background: #F1F3F2;
+  width: 100%;
+}
+
+#spacer {
+  max-height: 60px;
+  background: #F1F3F2;
+  padding-right: 10%;
+}
+
+p {
+max-width: 60%;
+text-align: left;
+font-family: 'Balto';
+color: #4c4e4d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Balto';
+  color: #4c4e4d;
+}
+
+img {
+  max-width: 60%;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+
+
+.headItem {
+  padding: 5px;
+}
+
+ul {
+  max-height: 10px;
+}
+
+.hocNavbar {
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#title {
+  font-size: 2.75em;
+}
+
+#sub-title {
+  font-size: 1.3em;
+}
+
+.fullscreen-enabled p {
+  font-size: 1.5em;
+}
+
+#byline {
+  font-size: .9em
+}
+
+.social-icon {
+  font-size: 1.6em;
+  padding-right: 15px;
+}
+
+/* .icon-button {
+  background: transparent;
+  border: none !important;
+} */
+
+.headItem {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: .8em;
+}
+
+.saved-story {
+  background: #F1F3F2;
+}
+
+#no-stories {
+  padding: 10px;
+  background: #F1F3F2;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.saved-story {
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 5px;
+}
+
+#my-stories:hover .dropdown-content {display: flex;
+top: 7%;
+position: absolute;}
