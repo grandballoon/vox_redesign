@@ -9,13 +9,13 @@ class navbar extends React.Component {
       return (
         <div className="saved-story">
           <img className="savedImg" src={require('../images/juul.jpg')}/>
-          <h3>The FDA may soon ban flavored vapes and menthol cigarettes</h3>
+          <h3 className="saved-title">The FDA may soon ban flavored vapes and menthol cigarettes</h3>
         </div>
       )
     } else {
       return (
         <div id="no-stories">
-          <h3>You don't have any saved stories</h3>
+          <h3 className="saved-title">You don't have any saved stories</h3>
         </div>
       )
     }
@@ -38,8 +38,13 @@ class navbar extends React.Component {
               {this.renderStories()}
             </div>
           </div></p>
-          <p className="headItem"><FontAwesomeIcon icon={["fab", "facebook"]} color="##3b5998" /></p>
-          <p className="headItem"><FontAwesomeIcon icon={["fab", "twitter"]} color="#1DA1F2" /></p>
+          <p className="headItem"><FontAwesomeIcon size={42} icon={["fab", "twitter"]} color="#4c4e4d" /></p>
+          <p className="headItem"><FontAwesomeIcon size={42} icon={["fab", "facebook"]} color="#4c4e4d" /></p>
+          <p className="headItem"><FontAwesomeIcon size={42} icon={["fab", "youtube"]} color="#4c4e4d" /></p>
+          <p className="headItem"><FontAwesomeIcon size={42} icon={["fa", "rss"]} color="#4c4e4d" /></p>
+          <p className="headItem"><FontAwesomeIcon size={42} icon={["fa", "user"]} color="#4c4e4d" /></p>
+          <p className="headItem"><FontAwesomeIcon size={42} icon={["fa", "search"]} color="#4c4e4d" /></p>
+
         </div>
 
       </div>
